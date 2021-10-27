@@ -92,3 +92,6 @@ export const reducer = (state, action) => {
 export function useProductReducer(initialState) {
   return useReducer(reducer, initialState);
 }
+
+//exporting reducer to fix compiling error. 
+export default reducer;
